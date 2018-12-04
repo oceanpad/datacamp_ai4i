@@ -29,7 +29,12 @@ print df.info()
 df.to_csv('df_csv.csv')
 
 df.plot(x = 'ts', y = 'ram')
+ram_max = df['ram'].max()
+ts_max = df['ts'][df['ram'].argmax()]
 plt.xlable = 'ram'
 plt.ylable = 'ts'
+# Add a black arrow annotation
+plt.annotate('Max', xy=(ts_max, ram_max), xytext=(ts_max, ram_max+2),arrowprops=dict(facecolor='black'))
 plt.show()
+plt.savefig('tomcat.png')
 
