@@ -3,3 +3,4 @@ venv
 *.swp
 venv-py3
 tweets.txt
+.DS_Store
