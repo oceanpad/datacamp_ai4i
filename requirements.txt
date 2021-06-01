@@ -34,4 +34,4 @@ SQLAlchemy==1.2.14
 subprocess32==3.5.3
 tornado==5.1.1
 tweepy==3.6.0
-urllib3==1.24.1
+urllib3==1.26.5
