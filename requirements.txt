@@ -11,7 +11,7 @@ Jinja2==2.10
 kiwisolver==1.0.1
 MarkupSafe==1.1.0
 matplotlib==2.2.3
-mysql-connector-python==8.0.13
+mysql-connector-python==8.0.14
 numpy==1.15.4
 oauthlib==2.1.0
 packaging==18.0
