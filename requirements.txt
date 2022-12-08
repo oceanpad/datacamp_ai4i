@@ -2,7 +2,7 @@ backports-abc==0.5
 backports.functools-lru-cache==1.5
 beautifulsoup4==4.6.3
 bokeh==1.0.2
-certifi==2018.10.15
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 futures==3.2.0
